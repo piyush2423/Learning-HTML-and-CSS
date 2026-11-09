@@ -1,0 +1,27 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: oblique;
+}
+
+p::first-line{
+    font-size: larger;
+    background-color: blueviolet;
+}
+
+p::selection{
+    color: green;
+    background-color: gray;
+}
+
+#fruit li::before{
+    content: "✔️";
+}
+#Apple::after{
+    content: "🍎";
+}
+#Banana::after{
+    content: "🍌";
+}
+#Grapes::after{
+    content: "🍇";
+}
